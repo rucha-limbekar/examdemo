@@ -12,6 +12,7 @@ var onDefault=function(req, res){
                     " <li>Workshops</li>"+
                     " <li>Online Course</li>"+
                     " <li>Corporate Training</li>"+
+                    "<li>Contoso is a multinational company has their 12 Offices all over world.</li>"
              "</ol>");
 };
 app.get("/",onDefault);  // Request handler functions are registered
